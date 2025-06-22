@@ -42,7 +42,7 @@ def playTheGame():
 
         found_in_word = False
         # Iterate through the chosen_word with its index
-        for i, char_in_word in enumerate(chosen_word.lower()): # Convert chosen_word to lower for comparison
+        for i, char_in_word in chosen_word.lower(): # Convert chosen_word to lower for comparison
             if userInput == char_in_word:
                 masked_display[i] = chosen_word[i] # Reveal the letter at its position
                 correctGuess += 1
