@@ -45,7 +45,7 @@ def decrypt_phrase(phrase,shift):
     return "".join(decrypted_chars)
 
 
-# --- Your main game loop (simplified for demonstration) ---
+# main game 
 userTermination = False
 while not userTermination:
     userInput = input("Enter 'encrypt' or 'decrypt' or 'quit': ").lower()
